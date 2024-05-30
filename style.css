@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #222831;
+  color: #eeeeee;
+}
+.profileCard {
+  border: solid 1px #212121;
+  padding: 3em;
+  border-radius: 0.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2em;
+  background-color: #393e46;
+  letter-spacing: 0.2em;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+}
+.picture {
+  border-radius: 50%;
+  width: auto;
+  height: 15em;
+  margin-bottom: 2em;
+}
+p {
+  margin-bottom: 0.7em;
+}
+.phoneDiv,
+.dobDiv {
+  display: flex;
+}
+.placeHolder {
+  opacity: 50%;
+  color: #eeeeee;
+}
+button {
+  padding: 0.4em;
+  border: solid 0px;
+  border-radius: 0.5em;
+  /* -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.38); */
+  /* -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.38); */
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.4);
+  transition: 100ms;
+}
+.profileCard:hover {
+  transform: scale(1.05);
+  transition: 100ms;
+}
